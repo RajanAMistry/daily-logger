@@ -1,4 +1,13 @@
-<header></header>
-<nav></nav>
+<header class="header">
+    <h1 class="header__greetings">Hi, {{ userFirstName }}</h1>
+    <div class="header__actions">
+        <button class="button" type="button" mat-flat-button color="primary" aria-label="Add new post">
+            <mat-icon class="button__icon" fontIcon="add"></mat-icon>
+            <span class="button__text">Add</span>
+        </button>
+    </div>
+</header>
 <app-post-list></app-post-list>
-<footer></footer>
+<footer class="footer">
+    <span class="footer__copyright">Daily logger ©2022</span>
+</footer>

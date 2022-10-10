@@ -8,6 +8,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PostListComponent } from './dashboard/post-list/post-list.component';
 import { ManagePostComponent } from './dashboard/manage-post/manage-post.component';
 import { DailyLoggerService } from './core/services/daily-logger.service';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { DailyLoggerService } from './core/services/daily-logger.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [DailyLoggerService],
   bootstrap: [AppComponent]
