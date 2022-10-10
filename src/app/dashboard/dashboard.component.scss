@@ -1,0 +1,27 @@
+.header {
+    padding: 1rem;
+    background-color: #232636;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__greetings {
+        color: white;
+        margin: 0;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    justify-content: flex-end;
+
+    &__copyright {
+        margin-right: 2rem;
+    }
+}
